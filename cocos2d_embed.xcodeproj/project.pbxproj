@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AFF605C1DD46D9C00B1B354 /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A49C4441DD46CA500447FE8 /* libcocos2d iOS.a */; };
+		7AFF60681DD471EA00B1B354 /* Cocos2dxEmbed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF60671DD471EA00B1B354 /* Cocos2dxEmbed.cpp */; };
+		7AFF60741DD4751100B1B354 /* libjscocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFF60711DD474F700B1B354 /* libjscocos2d iOS.a */; };
+		7AFF60771DD4768400B1B354 /* libjs_static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFF60761DD4768400B1B354 /* libjs_static.a */; };
+		7AFF607A1DD4A8E000B1B354 /* Cocos2dxUIViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF60791DD4A8E000B1B354 /* Cocos2dxUIViewController.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A49C4411DD46CA500447FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A49C43C1DD46CA400447FE8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1551A33F158F2AB200E66CFE;
+			remoteInfo = "libcocos2d Mac";
+		};
+		7A49C4431DD46CA500447FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A49C43C1DD46CA400447FE8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A07A4D641783777C0073F6A7;
+			remoteInfo = "libcocos2d iOS";
+		};
+		7AFF60581DD46D9800B1B354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A49C43C1DD46CA400447FE8 /* cocos2d_libs.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A07A4C241783777C0073F6A7;
+			remoteInfo = "libcocos2d iOS";
+		};
+		7AFF606E1DD474F700B1B354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AFF60691DD474F700B1B354 /* cocos2d_js_bindings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1A5410A418B785A10016A3AF;
+			remoteInfo = "libjscocos2d Mac";
+		};
+		7AFF60701DD474F700B1B354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AFF60691DD474F700B1B354 /* cocos2d_js_bindings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1A5410A518B785A10016A3AF;
+			remoteInfo = "libjscocos2d iOS";
+		};
+		7AFF60721DD4750B00B1B354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AFF60691DD474F700B1B354 /* cocos2d_js_bindings.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A07A4FB5178387750073F6A7;
+			remoteInfo = "libjscocos2d iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7A634EFB1DD45DA200E0D6B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7A49C43C1DD46CA400447FE8 /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "../cocos2d-x-lite/build/cocos2d_libs.xcodeproj"; sourceTree = "<group>"; };
+		7A634EFD1DD45DA200E0D6B7 /* libcocos2d_embed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcocos2d_embed.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFF60661DD471EA00B1B354 /* Cocos2dxEmbed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cocos2dxEmbed.h; sourceTree = "<group>"; };
+		7AFF60671DD471EA00B1B354 /* Cocos2dxEmbed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cocos2dxEmbed.cpp; sourceTree = "<group>"; };
+		7AFF60691DD474F700B1B354 /* cocos2d_js_bindings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_js_bindings.xcodeproj; path = "../cocos2d-x-lite/cocos/scripting/js-bindings/proj.ios_mac/cocos2d_js_bindings.xcodeproj"; sourceTree = "<group>"; };
+		7AFF60761DD4768400B1B354 /* libjs_static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjs_static.a; path = "../cocos2d-x-lite/external/ios/libs/libjs_static.a"; sourceTree = "<group>"; };
+		7AFF60781DD4A65700B1B354 /* Cocos2dxUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cocos2dxUIViewController.h; sourceTree = "<group>"; };
+		7AFF60791DD4A8E000B1B354 /* Cocos2dxUIViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Cocos2dxUIViewController.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A634EFA1DD45DA200E0D6B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFF60771DD4768400B1B354 /* libjs_static.a in Frameworks */,
+				7AFF60741DD4751100B1B354 /* libjscocos2d iOS.a in Frameworks */,
+				7AFF605C1DD46D9C00B1B354 /* libcocos2d iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A49C43D1DD46CA400447FE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A49C4421DD46CA500447FE8 /* libcocos2d Mac.a */,
+				7A49C4441DD46CA500447FE8 /* libcocos2d iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A634EF41DD45DA200E0D6B7 = {
+			isa = PBXGroup;
+			children = (
+				7AFF60691DD474F700B1B354 /* cocos2d_js_bindings.xcodeproj */,
+				7AFF60661DD471EA00B1B354 /* Cocos2dxEmbed.h */,
+				7AFF60671DD471EA00B1B354 /* Cocos2dxEmbed.cpp */,
+				7AFF60601DD46F4500B1B354 /* ios */,
+				7A49C43C1DD46CA400447FE8 /* cocos2d_libs.xcodeproj */,
+				7A634EFE1DD45DA200E0D6B7 /* Products */,
+				7AFF60751DD4768400B1B354 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A634EFE1DD45DA200E0D6B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A634EFD1DD45DA200E0D6B7 /* libcocos2d_embed.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AFF60601DD46F4500B1B354 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				7AFF60781DD4A65700B1B354 /* Cocos2dxUIViewController.h */,
+				7AFF60791DD4A8E000B1B354 /* Cocos2dxUIViewController.mm */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		7AFF606A1DD474F700B1B354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AFF606F1DD474F700B1B354 /* libjscocos2d Mac.a */,
+				7AFF60711DD474F700B1B354 /* libjscocos2d iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AFF60751DD4768400B1B354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AFF60761DD4768400B1B354 /* libjs_static.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A634EFC1DD45DA200E0D6B7 /* cocos2d_embed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A634F061DD45DA200E0D6B7 /* Build configuration list for PBXNativeTarget "cocos2d_embed" */;
+			buildPhases = (
+				7A634EF91DD45DA200E0D6B7 /* Sources */,
+				7A634EFA1DD45DA200E0D6B7 /* Frameworks */,
+				7A634EFB1DD45DA200E0D6B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AFF60731DD4750B00B1B354 /* PBXTargetDependency */,
+				7AFF60591DD46D9800B1B354 /* PBXTargetDependency */,
+			);
+			name = cocos2d_embed;
+			productName = cocos2d_embed;
+			productReference = 7A634EFD1DD45DA200E0D6B7 /* libcocos2d_embed.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A634EF51DD45DA200E0D6B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = mifunstudio;
+				TargetAttributes = {
+					7A634EFC1DD45DA200E0D6B7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7A634EF81DD45DA200E0D6B7 /* Build configuration list for PBXProject "cocos2d_embed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A634EF41DD45DA200E0D6B7;
+			productRefGroup = 7A634EFE1DD45DA200E0D6B7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7AFF606A1DD474F700B1B354 /* Products */;
+					ProjectRef = 7AFF60691DD474F700B1B354 /* cocos2d_js_bindings.xcodeproj */;
+				},
+				{
+					ProductGroup = 7A49C43D1DD46CA400447FE8 /* Products */;
+					ProjectRef = 7A49C43C1DD46CA400447FE8 /* cocos2d_libs.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7A634EFC1DD45DA200E0D6B7 /* cocos2d_embed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7A49C4421DD46CA500447FE8 /* libcocos2d Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d Mac.a";
+			remoteRef = 7A49C4411DD46CA500447FE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7A49C4441DD46CA500447FE8 /* libcocos2d iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d iOS.a";
+			remoteRef = 7A49C4431DD46CA500447FE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7AFF606F1DD474F700B1B354 /* libjscocos2d Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjscocos2d Mac.a";
+			remoteRef = 7AFF606E1DD474F700B1B354 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7AFF60711DD474F700B1B354 /* libjscocos2d iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjscocos2d iOS.a";
+			remoteRef = 7AFF60701DD474F700B1B354 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A634EF91DD45DA200E0D6B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFF60681DD471EA00B1B354 /* Cocos2dxEmbed.cpp in Sources */,
+				7AFF607A1DD4A8E000B1B354 /* Cocos2dxUIViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AFF60591DD46D9800B1B354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libcocos2d iOS";
+			targetProxy = 7AFF60581DD46D9800B1B354 /* PBXContainerItemProxy */;
+		};
+		7AFF60731DD4750B00B1B354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libjscocos2d iOS";
+			targetProxy = 7AFF60721DD4750B00B1B354 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7A634F041DD45DA200E0D6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_IPHONE,
+					COCOS2D_JAVASCRIPT,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../cocos2d-x-lite/cocos/",
+					"$(SRCROOT)/../cocos2d-x-lite/cocos/platform/ios",
+					"$(SRCROOT)/../cocos2d-x-lite/external/ios/include",
+					"$(SRCROOT)/../cocos2d-x-lite/cocos/audio/include",
+					"$(SRCROOT)/../cocos2d-x-lite/cocos/scripting/js-bindings/auto",
+					"$(SRCROOT)/../cocos2d-x-lite/cocos/scripting/js-bindings/manual",
+					"$(SRCROOT)/../cocos2d-x-lite/external/ios/include/spidermonkey",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../cocos2d-x-lite/external/ios/libs";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A634F051DD45DA200E0D6B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_IPHONE,
+					COCOS2D_JAVASCRIPT,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../cocos2d-x-lite/cocos/",
+					"$(SRCROOT)/../cocos2d-x-lite/cocos/platform/ios",
+					"$(SRCROOT)/../cocos2d-x-lite/external/ios/include",
+					"$(SRCROOT)/../cocos2d-x-lite/cocos/audio/include",
+					"$(SRCROOT)/../cocos2d-x-lite/cocos/scripting/js-bindings/auto",
+					"$(SRCROOT)/../cocos2d-x-lite/cocos/scripting/js-bindings/manual",
+					"$(SRCROOT)/../cocos2d-x-lite/external/ios/include/spidermonkey",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../cocos2d-x-lite/external/ios/libs";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A634F071DD45DA200E0D6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A634F081DD45DA200E0D6B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A634EF81DD45DA200E0D6B7 /* Build configuration list for PBXProject "cocos2d_embed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A634F041DD45DA200E0D6B7 /* Debug */,
+				7A634F051DD45DA200E0D6B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A634F061DD45DA200E0D6B7 /* Build configuration list for PBXNativeTarget "cocos2d_embed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A634F071DD45DA200E0D6B7 /* Debug */,
+				7A634F081DD45DA200E0D6B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A634EF51DD45DA200E0D6B7 /* Project object */;
+}
